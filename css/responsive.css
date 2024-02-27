@@ -1,0 +1,193 @@
+/* s_mobile_size */
+@media only screen and (min-width:320px) and (max-width:480px) {
+  .header_logo>.me-md-auto {
+    display: none !important;
+  }
+
+  .align-items-start {
+    flex-direction: column;
+  }
+
+  .p-desk-withnotice,
+  .col-4 {
+    width: -webkit-fill-available;
+    width: -moz-available !important;
+  }
+
+  .p-desk-withnotice,
+  .col-4 {
+    padding: 20px;
+    height: auto;
+  }
+
+  .college-important-link {
+    flex-direction: column;
+  }
+
+  .col-1 iframe {
+    width: -webkit-fill-available !important;
+    width: -moz-available !important;
+  }
+
+  .py-5 {
+    gap: 24px;
+  }
+
+  .text-center {
+    text-align: start !important;
+  }
+
+  .notices {
+    text-align: center !important;
+  }
+
+  .admin {
+    flex-wrap: wrap;
+    flex-direction: row !important;
+    gap: 15px;
+  }
+
+  .nav_logo1 {
+    display: block;
+    height: 57px;
+  }
+
+  .bg-body-tertiary {
+    padding: 0;
+  }
+
+  .navbar-toggler-icon {
+    filter: brightness(0) invert(1);
+  }
+
+  .navbar-toggler {
+    border: 1px solid #fff;
+    box-shadow: unset;
+  }
+
+  .navbar-toggler:focus {
+    box-shadow: unset;
+  }
+}
+
+/* Tablet size */
+@media only screen and (min-width:481px) and (max-width:768px) {
+  .header_logo>.me-md-auto {
+    display: none !important;
+  }
+
+  .nav_logo1 {
+    display: block;
+    height: 80px;
+  }
+
+  .bg-body-tertiary {
+    padding: 0;
+  }
+
+  .p-desk-withnotice,
+  .col-4 {
+    padding: 20px;
+    height: auto;
+  }
+
+  .col-4 {
+    width: -webkit-fill-available;
+  }
+
+  .align-items-start {
+    flex-direction: column !important;
+  }
+
+  .navbar-toggler-icon {
+    filter: brightness(0) invert(1);
+  }
+
+  .navbar-toggler {
+    border: 1px solid #fff;
+    box-shadow: unset;
+  }
+
+  .navbar-toggler:focus {
+    box-shadow: unset;
+  }
+
+  .col.mb-3 {
+    width: 100% !important;
+  }
+
+  .py-5 {
+    justify-content: unset !important;
+    gap: 25px;
+  }
+
+  .col-1 iframe {
+    width: 740px;
+    border-radius: 15px;
+  }
+
+  .college-important-link {
+    flex-wrap: wrap !important;
+  }
+}
+
+/* laptop size */
+@media only screen and (min-width:769px) and (max-width:991px) {
+  .header_logo>.me-md-auto {
+    display: none !important;
+  }
+
+  .nav_logo1 {
+    display: block;
+    height: auto;
+  }
+
+  .bg-body-tertiary {
+    padding: 0;
+  }
+
+  .navbar-toggler-icon {
+    filter: brightness(0) invert(1);
+  }
+
+  .navbar-toggler {
+    border: 1px solid #fff;
+    box-shadow: unset;
+  }
+
+  .navbar-toggler:focus {
+    box-shadow: unset;
+  }
+
+  .align-items-start {
+    flex-direction: column !important;
+  }
+
+  .p-desk-withnotice,
+  .col-4 {
+    padding: 20px;
+    height: auto;
+    width: -webkit-fill-available;
+  }
+
+  .py-5 {
+
+    gap: 25px;
+  }
+
+  .col.mb-3 {
+    width: 100% !important;
+  }
+
+  .col-1 iframe {
+    width: 900px;
+    border-radius: 15px;
+  }
+}
+
+/* laptop_L_size */
+@media only screen and (min-width:1024px) and (max-width:1440px) {
+  .college-name h1{
+    font-size: 1.85rem;
+  }
+}
