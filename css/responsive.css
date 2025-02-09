@@ -68,12 +68,26 @@
   .navbar-toggler:focus {
     box-shadow: unset;
   }
+
+  .dropdown-menu {
+    box-shadow: inset -1px 1px 11px 0px #fff
+  }
+
+  .footer-section>.row>.col-1 {
+    width: -webkit-fill-available !important;
+    width: -moz-available !important;
+
+  }
 }
 
 /* Tablet size */
 @media only screen and (min-width:481px) and (max-width:768px) {
   .header_logo>.me-md-auto {
     display: none !important;
+  }
+
+  .dropdown-menu {
+    box-shadow: inset -1px 1px 11px 0px #fff
   }
 
   .nav_logo1 {
@@ -93,6 +107,7 @@
 
   .col-4 {
     width: -webkit-fill-available;
+    width: -moz-available !important;
   }
 
   .align-items-start {
@@ -121,9 +136,13 @@
     gap: 25px;
   }
 
-  .col-1 iframe {
-    width: 740px;
-    border-radius: 15px;
+  .footer-section>.row>.katwa-map {
+    width: 100% !important;
+  }
+
+  .katwa-map iframe {
+    width: -webkit-fill-available !important;
+    width: -moz-available !important;
   }
 
   .college-important-link {
@@ -137,9 +156,14 @@
     display: none !important;
   }
 
+  .col-4 {
+    width: -webkit-fill-available;
+    width: -moz-available !important;
+  }
+
   .nav_logo1 {
     display: block;
-    height: auto;
+    height: 57px;
   }
 
   .bg-body-tertiary {
@@ -179,15 +203,68 @@
     width: 100% !important;
   }
 
-  .col-1 iframe {
-    width: 900px;
-    border-radius: 15px;
+  .footer-section>.row>.katwa-map {
+    width: 100% !important;
+  }
+
+  .katwa-map iframe {
+    width: -webkit-fill-available !important;
+    width: -moz-available !important;
+  }
+
+  .dropdown-menu {
+    box-shadow: inset -1px 1px 11px 0px #fff
   }
 }
 
 /* laptop_L_size */
-@media only screen and (min-width:1024px) and (max-width:1440px) {
-  .college-name h1{
+@media only screen and (min-width:992px) and (max-width:1024px) {
+  .college-name h1 {
     font-size: 1.85rem;
+  }
+
+  .notices>.row>.col-4 {
+    height: auto;
+  }
+
+  .header_logo>.me-md-auto {
+    width: auto;
+  }
+
+  .col.mb-3 {
+    width: 100% !important;
+  }
+
+  .footer-section>.row>.katwa-map {
+    width: 100% !important;
+  }
+
+  .katwa-map iframe {
+    width: -webkit-fill-available !important;
+    width: -moz-available !important;
+  }
+
+  .py-5 {
+    /* justify-content: unset !important; */
+    gap: 25px;
+    align-items: baseline;
+  }
+}
+
+/* laptop+_m screen */
+@media only screen and (min-width:1025px) and (max-width:1200px) {
+  .footer-section>.row>.katwa-map {
+    width: 100% !important;
+  }
+
+  .katwa-map iframe {
+    width: -webkit-fill-available !important;
+    width: -moz-available !important;
+  }
+
+  .py-5 {
+    /* justify-content: unset !important; */
+    gap: 25px;
+    align-items: baseline;
   }
 }

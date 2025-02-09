@@ -25,19 +25,19 @@
 .college-name h1 {
   font-family: 'old_english';
   font-size: 3rem;
-  margin: 0 0 0.625rem 0;
+  /* margin: 0 0 0.625rem 0; */
 }
 
 .college-name h2 {
   /* font-family: ''; */
-  font-size: 1.45rem;
+  font-size: 1.85rem;
   font-weight: 400;
-  margin: 0 0 0.625rem 0;
+  /* margin: 0 0 0.625rem 0; */
 }
 
 #est {
   font-size: 1.313rem !important;
-  margin-left: 0.440rem;
+  /* margin-left: 0.440rem; */
 }
 
 #est,
@@ -103,11 +103,16 @@ h3 {
   color: #fff;
 }
 
-.nav-link:hover {
-  color: #d4afaf;
+.navbar-nav>.nav-item>.nav-link:hover,
+.flex-column>.nav-item>.nav-link:hover {
+  color: #d4afaf !important;
 }
 
-/* .dropdown:hover .dropdown-menu {
+/* .nav-link.show {
+  color: #d4afaf !important;
+} */
+
+/* .dropdown:hover.show {
   display: block;
 } */
 
@@ -164,6 +169,7 @@ h3 {
   font-family: 'inter';
   border-radius: 15px;
   padding-top: 30px;
+  padding: 20px;
 }
 
 .align-items-start {
@@ -311,6 +317,17 @@ p {
   border-radius: 15px !important;
   color: #fff !important;
 }
-.col-1 iframe{
+
+.col-1 iframe {
   border-radius: 15px !important;
 }
+
+.notices>.row>.col-4 {
+  height: auto;
+}
+
+/* .college-logo{
+  background: transparent;
+  opacity: 1;
+
+} */
